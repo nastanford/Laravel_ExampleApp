@@ -12,11 +12,11 @@
         <li class="nav-item">
           <a class="nav-link {{ Route::is('about') ? 'active' : '' }}" aria-current="page" href="{{ route('about') }}">About</a>
         </li>
-        <li class="nav-item {{ Route::is('contact') ? 'active' : '' }}">
-          <a class="nav-link" aria-current="page" href="{{ route('contact') }}">Contact</a>
-        </li>
-        <li class="nav-item {{ Route::is('todos.index') ? 'active' : '' }}">
-          <a class="nav-link" aria-current="page" href="{{ route('todos.index') }}">ToDo List</a>
+        <li class="nav-item">
+          <a class="nav-link {{ Route::is('contact') ? 'active' : '' }}" aria-current="page" href="{{ route('contact') }}">Contact</a> 
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link {{ Route::is('todos.index') ? 'active' : '' }}" aria-current="page" href="{{ route('todos.index') }}">ToDo List</a>
         </li>
       </ul>
       <!---
